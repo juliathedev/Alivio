@@ -21,7 +21,13 @@ h2 {
     font-size: 50px;
     font-weight: 700;
     line-height: 157%;
+    
 }
+p, h1, h2, h3 {
+    padding: 0;
+    margin: 0;
+}
+
 .text__caption {
     color: #424242;
     font-size: 24px;
@@ -122,10 +128,29 @@ h2 {
 .advantages__text {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.our-products__headline {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 586px;
+    width: 100%;
+    margin-right: 136px;
 }
 .advantages__title {
+    max-width: 584px;
+    width: 100%;
 }
+
 .advantages__description {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    max-width: 671px;
+    width: 100%;
+    padding-right: 80px;
 }
 .advantages__steps {
 }
