@@ -39,12 +39,126 @@ body{
     margin-bottom: 18px;
 }
 .header button {
-    width: 227px;
-    height: 65px;
+    padding: 20px 50px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.menu__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu__logo {
     cursor: pointer;
+}
+.menu__logo:hover {
+    outline: 2px solid #01996D;
+    outline-offset: 8px;
+}
+.menu__list {
+}
+.menu__list li{
+    display: inline-block;
+    margin-right: 72px;
+}
+.menu__list li:hover{
+    color: #01996D;
+    cursor: pointer;
+}
+.menu__list li:last-child{
+    margin-right: 0;
+}
+.menu__buttons {
+    display: flex;
+    gap: 35px;
+}
+.btn {
     border-radius: 4px;
     border: 1px solid #01996D;
-    background: #01996D;
-    padding: 20px 50px;
-    color: #FFF;
+    background-color: #01996D;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.menu__buttons-secondary {
+    border: none;
+    border-color: white;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #fff;
+}
+.menu__buttons-primary {
+    padding: 13px 50px;
+}
+.advantages {
+}
+.advantages__text {
+}
+.advantages__title {
+}
+.advantages__description {
+}
+.advantages__steps {
+}
+.advantages__item {
+}
+.num {
+}
+.advantages__item-title {
+}
+.advantages__item-description {
+}
+.advantages__img {
+}
+.promo {
+}
+.promo__block {
+}
+.promo__title {
+}
+.promo__description {
+}
+.btn {
+}
+.promo__btn {
+}
+.video__block {
+}
+.our-products {
+}
+.card__container {
+}
+.card-img {
+}
+.card {
+}
+.card__title {
+}
+.card__divider {
+}
+.card__avatar {
+}
+.card__avatar-img {
+}
+.card__avatar-name {
+}
+.card__list-title {
+}
+.card__list {
+}
+.our-products__text {
+}
+.our-products__caption {
+}
+.our-products__title {
+}
+.our-products__description {
+}
+.our-products__btn {
 }
