@@ -60,8 +60,6 @@ body{
     outline: 2px solid #01996D;
     outline-offset: 8px;
 }
-.menu__list {
-}
 .menu__list li{
     display: inline-block;
     margin-right: 72px;
@@ -93,8 +91,15 @@ body{
     font-weight: 400;
     background-color: #fff;
 }
+.menu__buttons-secondary:hover {
+    color: #01996D;
+    cursor: pointer;
+}
 .menu__buttons-primary {
     padding: 13px 50px;
+}
+.menu__buttons-primary:hover {
+    border-color: #fff;
 }
 .advantages {
 }
