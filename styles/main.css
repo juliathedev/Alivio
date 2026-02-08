@@ -25,6 +25,9 @@ p, h1, h2, h3, h4 {
     padding: 0;
     margin: 0;
 }
+a {
+    text-decoration: none;
+}
 
 .text__caption {
     color: #424242;
@@ -310,10 +313,9 @@ video {
     z-index: 2;
 }
 /* Our products section */
-
 .our-products .container {
     margin-top: 120px;
-    margin-bottom: 168px;
+    margin-bottom: 240px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -409,4 +411,31 @@ video {
 }
 .our-products__btn {
     padding: 20px 50px;
+}
+/* Footer */
+.footer {
+    display: flex;
+    background: #245852;
+    padding-top: 100px;
+
+}
+.footer__menu {
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    list-style-type: none;
+    padding: 0;
+    padding-top: 46px;
+    padding-bottom: 124px;
+}
+.footer__menu li {
+    margin-top: 58px;
+}
+.footer__menu li:first-child{
+    margin-top: 0;
+}
+a:visited  {
+    color: inherit;
 }
