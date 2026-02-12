@@ -41,6 +41,13 @@ a {
     font-weight: 400;
     line-height: 144.5%;
 }
+.btn__primary {
+    display: inline-flex;
+    padding: 20px 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
 /* Header */
 .header {
     max-height: 895px;
@@ -64,9 +71,6 @@ a {
     max-width: 420px;
     width: 100%;
     margin-bottom: 56px;
-}
-.header__button {
-    padding: 21px 48px;
 }
 .menu {
     display: flex;
@@ -289,12 +293,6 @@ a {
     line-height: 157%;
     padding-bottom: 55px;
 }
-.promo__btn {
-    display: inline-flex;
-    padding: 20px 48px;
-    flex-direction: column;
-    align-items: center;
-}
 .video__block {
     position: relative;
     margin-top: 180px;
@@ -415,9 +413,6 @@ video {
     max-width: 530px;
     width: 100%;
 }
-.our-products__btn {
-    padding: 20px 50px;
-}
 /* Footer */
 .footer {
     display: flex;
@@ -476,7 +471,7 @@ a:visited  {
     }
     .btn {
         font-size: 18px;
-        
+
     }
     .menu__buttons-primary {
         padding: 11px 46px;
