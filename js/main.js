@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var sidenav = document.querySelectorAll('.sidenav');
     var instances_sidenav = M.Sidenav.init(sidenav);
     
-    var burger = document.querySelector('.burger');
+    var burger = document.querySelector('.menu__close');
     
     if (burger) {
         burger.addEventListener('click', function(e) {
