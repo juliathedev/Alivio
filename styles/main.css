@@ -727,8 +727,9 @@ a:visited  {
         padding: 0 23.5px 0 31px;
     }
     .sidenav {
+        padding-top: 20px;
         position: fixed;
-        width: 300px;
+        width: 768px;
         left: 0;
         top: 0;
         margin: 0;
@@ -772,7 +773,7 @@ a:visited  {
     }
 
     .sidenav li > a:hover {
-        background-color: rgba(0, 164, 229, 0.56);
+        color: #01996D;
     }
 
     .sidenav li > a > i,
@@ -856,5 +857,8 @@ a:visited  {
     }
     .menu__buttons {
         display: none;
+    }
+    .mobile__logo {
+        margin-left: 28px;
     }
 }
