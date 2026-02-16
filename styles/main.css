@@ -57,8 +57,8 @@ a {
 }
 .burger {
     display: none;
-    width: 70px;
-    height: 70px;
+    min-width: 44px;
+    min-height: 44px;
     cursor: pointer;
     background-color: var(--accent-color);
     border: none;
@@ -68,7 +68,7 @@ a {
 }
 .burger__line {
     display: block;
-    width: 26px;
+    width: 24px;
     height: 3px;
     background-color: #01996D;
     margin-bottom: 4px;
@@ -769,13 +769,12 @@ a:visited  {
     .sidenav li > a {
         color: rgba(0, 0, 0, 0.87);
         display: block;
-        font-size: 14px;
+        font-size: 18px;
         font-weight: 500;
         height: 48px;
         line-height: 48px;
         padding: 0 32px;
     }
-
     .sidenav li > a:hover {
         color: #01996D;
     }
@@ -853,8 +852,18 @@ a:visited  {
     .menu__list {
         display: none;
     }
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    .btn {
+        padding: 14px 28px;
+    }
     .container {
         outline: 1px solid red;
+        padding: 0 20px;
     }
     .menu__logo {
         margin-right: 0;
@@ -865,4 +874,104 @@ a:visited  {
     .mobile__logo {
         margin-left: 28px;
     }
+    .menu__tablet {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        padding: 0 30px 15px;
+    }
+    .fa-solid:hover {
+        color: #01996D;
+    }
+    .menu__buttons {
+        padding: 0 20px;
+        margin-left: 0;
+    }
+    .menu__buttons-secondary {
+        border: 2px solid #01996D;
+        border-radius: 4px;
+        padding: 11px 46px;
+    }
+    .tablet {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 20px 30px 20px;
+        width: 100%;
+        background-color: #fcfffa;
+        box-shadow: 2px 7px 41px 0px rgba(226, 228, 246, 0.32) inset;
+    }
+    .header {
+        background-size: cover;
+    }
+    .advantages {
+        padding-top: 100px;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+    .our-products__headline{
+        align-items: center;
+    }
+    .our-products__description {
+        max-width: 460px;
+    }
+    .advantages__title {
+        text-align: center;
+        width: 350px;
+    }
+    .advantages__text {
+        align-items: center;
+    }
+    .advantages__description {
+        text-align: center;
+    }
+    .advantages__steps {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0;
+    }
+    .advantages__item {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .advantages__img {
+        display: none;
+    }
+    .advantages__item:nth-child(2), 
+    .advantages__item:nth-child(3) {
+        margin-top: 0;
+    }
+    .advantages__item-description {
+        margin-bottom: 0;
+        padding-top: 8px;
+    }
+    .advantages__item:nth-child(2) .advantages__item-description {
+        width: 100%;
+        padding-left: 20px;
+    }
+    .advantages__item:nth-child(2) {
+        margin-left: 70px;
+    }
+    .advantages__item:nth-child(3) .num {
+        padding-top: 0;
+    }
+    .advantages__item:nth-child(3) .advantages__item-title {
+        top: 36%;
+        left: 24%;
+    }
+    .advantages__item:nth-child(3) .advantages__item-description {
+        padding-bottom: 0;
+    }
+    .video__play {
+        width: 40px;
+        height: 40px;
+    }
+    .footer__menu {
+        font-size: 18px;
+        padding-top: 26px;
+    }
+
 }

@@ -15,22 +15,29 @@
     <!-- Mobile Nav -->
     <div class="sidenav-overlay" style="opacity: 1; display: block;"></div>
     <ul id="slide-out" class="sidenav">
-        <div class="menu__tablet">
-            <a href="#"><img src="assets/menu-logo.png" class="menu__logo"></a>
-            <a href="#" class="menu__close"><i class="fa-solid fa-xmark"></i></a>
-        </div>
+        <li>
+            <div class="menu__tablet">
+                <a href="#"><img src="assets/menu-logo.png" class="menu__logo" alt="menu logo"></a>
+                <a href="#" class="menu__close"><i class="fa-solid fa-xmark"></i></a>
+            </div>
+        </li>
+        <li><div class="divider"></div></li>
         <li><a href="#!">Why Alivio</a></li>
         <li><a href="#!">Solutions</a></li>
         <li><a href="#!">Community</a></li>
         <li><a href="#!">Pricing</a></li>
         <li><div class="divider"></div></li>
-        <li><a href="#!">Sign in</a></li>
-        <li><a href="#!">Start Trial</a></li>
+        <li>
+            <div class="menu__buttons">
+                <button class="menu__buttons-secondary">Sign in</button>
+                <button class="btn menu__buttons-primary">Start Trial</button>
+            </div>
+        </li>
     </ul>
     <nav class="menu">
         <div class="container">
             <div class="menu__container">
-                <a href="#"><img src="assets/menu-logo.png" class="menu__logo"></a>
+                <a href="#"><img src="assets/menu-logo.png" class="menu__logo" alt="logo"></a>
                 <ul class="menu__list">
                     <li><a href="#"></a>Why Alivio</li>
                     <li><a href="#"></a>Solutions</li>
@@ -97,7 +104,7 @@
                 </div>
                 <div class="video__block">
                     <video src="#" poster="assets/poster.jpg"></video>
-                    <img src="assets/play-white.png" class="video__play">
+                    <img src="assets/play-white.png" class="video__play" alt="play button">
                 </div>
             </div>
         </section>
@@ -107,7 +114,7 @@
                     <img src="assets/card-img.png" alt="" class="card-img">
                     <div class="card">
                         <div class="card__wrapper">
-                            <h4 class="card__title">Customized For</h4>
+                            <h3 class="card__title">Customized For</h3>
                             <div class="card__divider"></div>
                             <div class="card__avatar">
                                 <img src="assets/card_avatar.png" alt="" class="card__avatar-img">
@@ -133,19 +140,19 @@
             </div>
         </section>
     </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <img src="assets/footer-logo.png" alt="" class="footer__logo">
+            <ul class="footer__menu">
+                <li><a href="#">Why Alivio</a></li>
+                <li><a href="#">Solutions</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Pricing</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
-<!-- Footer -->
-<footer class="footer">
-    <div class="container">
-        <img src="assets/footer-logo.png" alt="" class="footer__logo">
-        <ul class="footer__menu">
-            <li><a href="#">Why Alivio</a></li>
-            <li><a href="#">Solutions</a></li>
-            <li><a href="#">Community</a></li>
-            <li><a href="#">Pricing</a></li>
-        </ul>
-    </div>
-</footer>
-<script type="text/javascript" src="js/materialize.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
 </html>
