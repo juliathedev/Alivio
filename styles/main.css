@@ -11,7 +11,6 @@ html {
 body{
     font-family: 'Lato', sans-serif;
     margin: 0;
-
 }
 .container {
     max-width: 1370px;
@@ -733,7 +732,8 @@ a:visited  {
     .sidenav {
         padding-top: 20px;
         position: fixed;
-        width: 768px;
+        max-width: 768px;
+        width: 100%;
         left: 0;
         top: 0;
         margin: 0;
@@ -862,7 +862,6 @@ a:visited  {
         padding: 14px 28px;
     }
     .container {
-        outline: 1px solid red;
         padding: 0 20px;
     }
     .menu__logo {
@@ -973,5 +972,89 @@ a:visited  {
         font-size: 18px;
         padding-top: 26px;
     }
-
+}
+@media (max-width: 425px) {
+    .sidenav {
+        max-width: 425px;
+    }
+    .menu {
+        max-width: 425px;
+        margin: 0;
+    }
+    .container {
+        max-width: 425px;
+        padding: 0 20px;
+        outline: 1px solid red;
+    }
+    nav .sidenav-trigger {
+        margin: 0;
+    }
+    .header {
+        max-width: 425px;
+    }
+    .header h1 {
+        font-size: 32px;
+        max-width: 260px;
+    }
+    .text__description {
+        padding-bottom: 26px;
+    }
+    .btn,
+    .menu__buttons-secondary {
+        padding: 18px 28px;
+    }
+    .text__caption {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    .advantages {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .advantages__description {
+        padding-top: 26px;
+    }
+    .advantages__item:first-child {
+        margin-right: 0;
+    }
+    .advantages__item:nth-child(2) {
+        padding-right: 0;
+        margin-left: 0;
+    }
+    .advantages__item:nth-child(2) .num {
+        left: 0;
+    }
+    .advantages__item:nth-child(2) .advantages__item-title {
+        top: 87px;         
+        left: 20px;
+    }
+    .advantages__item:nth-child(2) .advantages__item-description,
+    .advantages__item:nth-child(3) .advantages__item-description {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+    .advantages__item:nth-child(3) .num {
+        left: 0;
+        top: 0;
+    }
+    .advantages__item-description {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .text__description {
+        margin-bottom: 0;
+    }
+    .promo_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .promo__block {
+        padding-top: 40px;
+    }
+    .promo {
+        padding: 0 20px;
+    }
 }
