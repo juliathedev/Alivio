@@ -1070,4 +1070,22 @@ a:visited  {
         margin-top: 0;
         margin-bottom: 40px;
     }
+    .our-products .container {
+        margin-top: 80px;
+        margin-bottom: 120px;
+    }
+    .card__container {
+        display: none;
+    }
+    .our-products__text {
+        margin-left: 0;
+        max-width: 340px;
+    }
+    .footer {
+        padding-top: 16px;
+        margin-top: 0;
+    }
+    .footer__menu li {
+        margin-top: 20px;
+    }
 }
