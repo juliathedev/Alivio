@@ -75,6 +75,9 @@ a {
 .burger__line:last-child {
     margin-bottom: 0;
 }
+.mobile-btn {
+    display: none;
+}
 /* Header */
 .header {
     max-height: 895px;
@@ -1055,6 +1058,16 @@ a:visited  {
         padding-top: 40px;
     }
     .promo {
-        padding: 0 20px;
+        padding: 0 20px 48px;
+    }
+    .promo__btn {
+        display: none;
+    }
+    .mobile-btn {
+        display: inline-block;
+    }
+    .video__block {
+        margin-top: 0;
+        margin-bottom: 40px;
     }
 }
