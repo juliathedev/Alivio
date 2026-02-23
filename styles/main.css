@@ -81,7 +81,8 @@ a {
 /* Header */
 .header {
     max-height: 895px;
-    background-size: 100%;
+    min-height: 1065px;
+    background-size: contain;
     height: 100%;
     width: 100%;
     background-image: url(../assets/header-bg.png);
@@ -177,7 +178,6 @@ a {
 }
 /* Advantages */
 .advantages {
-    padding-top: 169px;
     padding-bottom: 48px;
 }
 .our-products__headline {
@@ -235,8 +235,8 @@ a {
     font-weight: 700;
     line-height: 150%;
     position: absolute; 
-    top: 136px;
-    left: 89px;
+    top: 11.80%;
+    left: 21.86%;
 }
 .advantages__item-description {
     color: #424242;
@@ -248,15 +248,18 @@ a {
     padding-bottom: 60px;
     padding-top: 12px;
 }
+.advantages__item:nth-child(1) .advantages__item-title {
+    left: 25%;
+}
 .advantages__item:nth-child(2) {
     margin-top: 287px;
 }
 .advantages__item:nth-child(2) .num {
-    left: 17px;
+    left: 5%;
 }
 .advantages__item:nth-child(2) .advantages__item-title {
-    top: 137px;         
-    left: 96px;
+    top: 16%;   
+    left: 24%;
     max-width: 313px;
     width: 100%;
 }
@@ -274,17 +277,18 @@ a {
     width: 100%;
 }
 .advantages__item:nth-child(3) .num {
-    padding-top: 46px;
-    left: 20px;
-    top: 10px;
+    top: 4.60%;
+    left: 8%;
+    
 }
 .advantages__item:nth-child(3) .advantages__item-title {
-    top: 190px;         
-    left: 142px;
+    top: 16.70%;         
+    left: 38%;
 }
 .advantages__item:nth-child(3) .advantages__item-description {
     max-width: 417px;
     width: 100%;
+    padding-top: 60px;
     padding-left: 15px;
     padding-bottom: 46px;
 }
@@ -322,7 +326,8 @@ a {
 }
 .video__block {
     position: relative;
-    margin-top: 180px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     overflow: hidden;
     max-width: 896px;
     border-radius: 16px;
@@ -520,10 +525,10 @@ a:visited  {
     }
     .header__description {
         max-width: 340px;
+        margin-bottom: 36px;
     }
     .text__description {
         font-size: 16px;
-        margin-bottom: 36px;
     }
     .advantages {
         padding-top: 120px;
@@ -591,8 +596,6 @@ a:visited  {
     }
     .video__block {
         border-radius: 16px;
-        margin-top: 100px;
-        margin-bottom: 100px;
     }
     .our-products .container {
         margin-top: 100px;
@@ -922,11 +925,8 @@ a:visited  {
         text-align: center;
         width: 350px;
     }
-    .advantages__text {
-        align-items: center;
-    }
     .advantages__description {
-        text-align: center;
+        text-align: start;
     }
     .advantages__steps {
         flex-direction: column;
@@ -998,8 +998,9 @@ a:visited  {
         font-size: 32px;
         max-width: 260px;
     }
-    .text__description {
+    .header__description {
         padding-bottom: 26px;
+        margin-bottom: 0;
     }
     .btn,
     .menu__buttons-secondary {
@@ -1042,12 +1043,13 @@ a:visited  {
         left: 0;
         top: 0;
     }
+    .advantages__item:nth-child(3) .advantages__item-title {
+        top: 40%;
+        left: 24%;
+    }
     .advantages__item-description {
         padding-bottom: 0;
         padding-top: 0;
-    }
-    .text__description {
-        margin-bottom: 0;
     }
     .promo_wrapper {
         flex-direction: column;
@@ -1073,6 +1075,9 @@ a:visited  {
         margin-top: 80px;
         margin-bottom: 120px;
     }
+    .our-products__description {
+        padding-bottom: 20px;
+    }
     .card__container {
         display: none;
     }
@@ -1089,5 +1094,34 @@ a:visited  {
     }
 }
 @media (max-width: 320px) {
-
+    .container {
+        max-width: 320px;
+        padding: 0 10px;
+    }
+    .text__description {
+        font-size: 14px;
+    }
+    .btn,
+    .menu__buttons-secondary {
+        padding: 12px 20px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    .advantages__title {
+        max-width: 330px;
+    }
+    .advantages__description {
+        text-align: left;
+    }
+    .advantages__item:nth-child(3) .advantages__item-title {
+        top: 42%;
+        left: 26%;
+    }
+    .our-products__description {
+        padding-bottom: 16px;
+    }
+    .footer__menu {
+        font-size: 14px;
+    }
 }
