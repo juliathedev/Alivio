@@ -2,7 +2,7 @@
 
 A responsive landing page for a personal time management service. The project is built according to the Figma design.
 
-![Project Preview](assets/1920_Landing Page_Final.png)
+![Project Preview](./assets/1920_Landing Page_Final.png)
 
 ## 🚀 Live Demo
 
