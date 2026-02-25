@@ -174,7 +174,8 @@ a {
 .menu__buttons-primary {
     padding: 13px 50px;
 }
-.btn__primary:hover {
+.btn__primary:hover,
+.menu__buttons-primary:hover {
     border-color: #fff;
 }
 /* Advantages */
