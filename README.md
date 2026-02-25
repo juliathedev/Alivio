@@ -2,6 +2,8 @@
 
 A responsive landing page for a personal time management service. The project is built according to the Figma design.
 
+![Project Preview](assets/1920_Landing Page_Final.png)
+
 ## 🚀 Live Demo
 
 Check out the live project: [GitHub Pages](https://juliathedev.github.io/Alivio/)
